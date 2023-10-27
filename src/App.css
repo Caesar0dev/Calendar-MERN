@@ -1,0 +1,115 @@
+/* Apply external material css */
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+p,h2,footer 
+{
+  display: flex;
+  justify-content: center;
+}
+select, input 
+{
+  width: 220px;
+  padding: 0;
+  margin: 0;
+}
+legend 
+{
+  font-size: 60%;
+}
+fieldset 
+{
+  width: 250px;
+  bottom: 0;
+  height: 33px;
+  padding: 0px;
+  margin-left: 508px;
+  color: grey;
+  border: 1px solid grey;
+}
+input, select 
+{
+  border: none;
+  width: 95%;
+  padding: 3px;
+  position: static;
+}
+footer #calendar 
+{
+  background-color: #c70039;
+  color: white;
+  width: 130px;
+  height: 35px;
+}
+.calendar
+{
+  margin-left: 38%;
+}
+#calendar:hover 
+{
+  background-color: darkred;
+  cursor: pointer;
+}
+.logout--button 
+{
+  margin-top: 15px;
+  background-color:white;
+  cursor: pointer; 
+  border: 1px solid grey;
+  height: 30px;
+  width: 68px;
+}
+header 
+{
+  background-color: #c70039;
+  height: 50px;
+}
+div.btns 
+{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  padding: 10px;
+  grid-gap: 10px;
+  width: 280px;
+  margin-left: 30%;
+}
+.grid-button > button 
+{
+  border: 1px solid grey;
+  height: 30px;
+  width: 68px;
+  background-color: white;
+  color: grey;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  padding: 6px;
+  border-radius: 9%;
+}
+.grid-button7 > button 
+{
+  border: 1px solid grey;
+  width: 68px;
+  height: 30px;
+  padding: 10px;
+  background-color: white;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50%;
+  border-radius: 9%;
+}
+div > button 
+{
+  margin: auto 7px 5px 7px;
+}
+.grid-button7 > button 
+{
+  margin: auto auto auto 49%;
+}
+.grid-button > button:hover,
+.grid-button7 > button:hover 
+{
+  color: black;
+  cursor: pointer;
+}
